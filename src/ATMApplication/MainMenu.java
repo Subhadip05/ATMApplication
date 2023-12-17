@@ -35,7 +35,7 @@ public class MainMenu extends Account{
             if(data.containsKey(cn) && data.get(cn)==pin){
                 getAccountType();
             }else{
-                System.out.println("\nWrong customer number or Pin number");
+                System.out.println("\nCustomer number or Pin number are not match.");
             }
     }
 
