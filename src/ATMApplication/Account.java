@@ -11,6 +11,7 @@ public class Account {
     //Default balance will be 0.0
     double currentBalance=0.0,savingBalance=0.0;
 
+    //Here i have to connect database for username and pin number
     public int setCustomerNumber(int customerNumber){
         this.customerNumber=customerNumber;
         return customerNumber;
